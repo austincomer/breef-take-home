@@ -1,0 +1,17 @@
+export const agencies = [
+  'Creative Minds Studio',
+  'Digital Innovators',
+  'Social Buzz Agency',
+  'Tech Solutions Group',
+  'Green Growth Agency',
+  'Visionary Branding Co.',
+  'Elite Marketing Partners',
+  'NextGen Web Solutions',
+  'Viral Growth Lab',
+  'Impact Media Agency',
+  'Pioneer Digital',
+  'Brand Builders Collective',
+  'SEO & Content Wizards',
+  'CloudTech Consultants',
+  'UX/UI Design Masters',
+]

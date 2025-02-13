@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply text-neutral-950;
+    scrollbar-gutter: stable;
+  }
+
+  /* Styling the scrollbar track (part the thumb moves within) */
+  ::-webkit-scrollbar-track {
+    @apply bg-transparent;
+  }
+
+  /* Styling the scrollbar thumb */
+  ::-webkit-scrollbar-thumb {
+    @apply rounded-full bg-neutral-200 bg-clip-padding;
+    border: 2px solid rgba(0, 0, 0, 0);
+  }
+
+  /* Change thumb color on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-neutral-400;
+  }
+
+  /* Styling the scrollbar itself (main scrollbar container) */
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+
+  .wire {
+    @apply border border-neutral-200;
+  }
+
+  .wire1 {
+    @apply border border-red-300;
+  }
+
+  .wire2 {
+    @apply border border-blue-300;
+  }
+
+  .wire3 {
+    @apply border border-green-300;
+  }
+}
