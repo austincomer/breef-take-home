@@ -21,7 +21,7 @@ Welcome! This project is a simple demo of a **searchable multi-select dropdown**
 
 4. **Open** your browser and visit http://localhost:3000 to see the demo in action.
 
-You can also find a live version of this app here (insert your deployed link).
+You can also find a live version of this app here https://breef-take-home.vercel.app/.
 
 ---
 
